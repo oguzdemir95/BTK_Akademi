@@ -10,13 +10,12 @@ public class Main {
         {
             enBuyuk=sayi2;
         }
-        else if(sayi3>enBuyuk)
+        
+        if(sayi3>enBuyuk)
         {
             enBuyuk=sayi3;
         }
 
         System.out.println("En büyük sayı: "+enBuyuk);
-
-
     }
 }
